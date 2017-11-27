@@ -45,11 +45,6 @@ h1, h2, h3 {
 img {
   max-width: 100%;
 }
-li {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: var(--utu-font);
-}
-
 
 .remark-slide-content {
   font-size: 24pt;
