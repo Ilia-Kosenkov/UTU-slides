@@ -84,6 +84,9 @@ img {
   padding-bottom: 0em;
 }
 
+.title-slide h2, h3, p{
+  font-size: 0pt;
+}
 
 /* AUTHOR slide */
 .author-slide h1, .author-slide p {
