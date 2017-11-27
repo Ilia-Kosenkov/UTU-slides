@@ -83,12 +83,7 @@ img {
   font-weight: bold;
   padding-bottom: 0em;
 }
-.title-slide h2 {
-  font-size: 14pt;
-}
-.title-slide h3, p{
-  font-size: 0pt;
-}
+
 
 /* AUTHOR slide */
 .author-slide h1, .author-slide p {
