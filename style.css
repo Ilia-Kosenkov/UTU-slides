@@ -30,12 +30,12 @@
 }
 
 body {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24pt;
   color: var(--utu-font);
 }
 h1, h2, h3, p {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Open Sans Condensed', sans-serif;
   color: var(--utu-font);
 }
 h1, h2, h3 {
@@ -45,6 +45,11 @@ h1, h2, h3 {
 img {
   max-width: 100%;
 }
+li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: var(--utu-font);
+}
+
 
 .remark-slide-content {
   font-size: 24pt;
@@ -84,9 +89,6 @@ img {
   padding-bottom: 0em;
 }
 
-.title-slide h2, h3, p{
-  font-size: 20pt;
-}
 
 /* AUTHOR slide */
 .author-slide h1, .author-slide p {
