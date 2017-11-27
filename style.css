@@ -133,11 +133,11 @@ th, td {
 /*Background images*/
 
 .utu-back-title{
-  background-image: url(background_title.png);
+  background-image: url(https://cdn.rawgit.com/Ilia-Kosenkov/UTU-slides/master/background_title.png);
   background-size: 100%, auto;
 }
 
 .utu-back-content{
-  background-image: url(background_content.png);
+  background-image: url(https://cdn.rawgit.com/Ilia-Kosenkov/UTU-slides/master/background_content.png);
   background-size: 100%, auto;
 }
