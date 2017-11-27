@@ -1,16 +1,17 @@
 
 :root {
  
-  --utu-aqua:        #78c8d2;
-  --utu-grey:        #bebebe;
-  --utu-orange:      #f07d00;
-  --utu-red:         #c80041;
-  --utu-purple:      #a50082;
-  --utu-darkblue:    #1437a5;
-  --utu-blue:        #00a5eb;
-  --utu-green:       #14aa3c;
-  --utu-lightgreen:  #a0d71e;
-  
+  --utu-aqua:        #78c8d2; /* Highlighter */
+  --utu-grey:        #bebebe; /* Identifying color */
+  --utu-orange:      #f07d00; /* School of economics */
+  --utu-red:         #c80041; /* Social scieces */
+  --utu-purple:      #a50082; /* Law */
+  --utu-darkblue:    #1437a5; /* Humanities */
+  --utu-blue:        #00a5eb; /* Education */
+  --utu-green:       #14aa3c; /* Medicine */
+  --utu-lightgreen:  #a0d71e; /* Math and Nat. sciences */
+  --utu-font:        #202020;
+
 }
 
 @page {
@@ -29,13 +30,13 @@
 }
 
 body {
-  font-family: Verdana;
+  font-family: 'Open Sans Condensed';
   font-size: 24pt;
-  color: var(--csc-grey);
+  color: var(--utu-font);
 }
 h1, h2, h3, p {
-  font-family: Verdana;
-  color: var(--csc-grey);
+  font-family: 'Open Sans Condensed';
+  color: var(--utu-font);
 }
 h1, h2, h3 {
   margin-bottom: 0;
@@ -68,7 +69,7 @@ img {
 
 /* TITLE slide */
 .title-slide h1, .title-slide h2 {
-  color: #000000;
+  color: var(--utu-font);
   margin-left: 28%;
   width: 72%;
   float: right;
@@ -83,6 +84,9 @@ img {
 }
 .title-slide h2 {
   font-size: 14pt;
+}
+.title-slide h3, p{
+  font-size: 0pt;
 }
 
 /* AUTHOR slide */
@@ -122,12 +126,12 @@ th, td {
   padding-right: 1ex;
 }
 .show-cells th, .show-cells td {
-  background-color: var(--csc-green);
+  background-color: var(--utu-aqua);
 }
 
 /*Background images*/
 
-.utu-back{
-  background-image: url(https://cdn.rawgit.com/TuorlaObservatory/CompCoffee/e1e2ed26/programming-styles/slides/background.png);
+.utu-back-title{
+  background-image: url(background_title.png);
   background-size: 100%, auto;
 }
