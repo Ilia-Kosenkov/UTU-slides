@@ -49,11 +49,12 @@ img {
 .remark-slide-content {
   font-size: 24pt;
   padding-left: 2.6em;
+  padding-top: 2.3em;
 }
 .remark-slide-content h1 { 
   font-size: 28pt;
   font-weight: bold;
-  color: var(--csc-teal);
+  color: var(--utu-font);
   padding-bottom: 0.8em;
 }
 .remark-slide-content h2 {
@@ -133,5 +134,10 @@ th, td {
 
 .utu-back-title{
   background-image: url(background_title.png);
+  background-size: 100%, auto;
+}
+
+.utu-back-content{
+  background-image: url(background_content.png);
   background-size: 100%, auto;
 }
