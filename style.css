@@ -1,27 +1,16 @@
-/* CSC colors
- *  (main)
- *   magenta:   #830051
- *   teal:      #006778
- *   grey:      #5e6a71
- *
- *  (extra)
- *   green:     #7dc242
- *   orange:    #ff5800
- *   purple:    #ea1d77
- *   turquoise: #00c7b2
- *   dark blue: #002f5f
- *   blue:      #0082bb
- */
+
 :root {
-  --csc-magenta:   #830051;
-  --csc-teal:      #006778;
-  --csc-grey:      #5e6a71; 
-  --csc-green:     #7dc242;
-  --csc-orange:    #ff5800;
-  --csc-purple:    #ea1d77;
-  --csc-turquoise: #00c7b2;
-  --csc-dark-blue: #002f5f;
-  --csc-blue:      #0082bb;
+ 
+  --utu-aqua:        #78c8d2;
+  --utu-grey:        #bebebe;
+  --utu-orange:      #f07d00;
+  --utu-red:         #c80041;
+  --utu-purple:      #a50082;
+  --utu-darkblue:    #1437a5;
+  --utu-blue:        #00a5eb;
+  --utu-green:       #14aa3c;
+  --utu-lightgreen:  #a0d71e;
+  
 }
 
 @page {
@@ -40,12 +29,12 @@
 }
 
 body {
-  font-family: Corbel;
+  font-family: Verdana;
   font-size: 24pt;
   color: var(--csc-grey);
 }
 h1, h2, h3, p {
-  font-family: Corbel;
+  font-family: Verdana;
   color: var(--csc-grey);
 }
 h1, h2, h3 {
@@ -134,4 +123,11 @@ th, td {
 }
 .show-cells th, .show-cells td {
   background-color: var(--csc-green);
+}
+
+/*Background images*/
+
+.utu-back{
+  background-image: url(https://cdn.rawgit.com/TuorlaObservatory/CompCoffee/e1e2ed26/programming-styles/slides/background.png);
+  background-size: 100%, auto;
 }
