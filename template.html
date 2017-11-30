@@ -45,11 +45,12 @@
         return '<img src="' + url + '" class=author-pic />';
     };
     var slideshow = remark.create({
-        ratio: '16:9',
-        slideNumberFormat: '',
-        highlightStyle: 'default',
-        highlightLines: true
-      }) ;
+      ratio: '16:9',
+      slideNumberFormat: '%current% / %total%',
+      highlightStyle: 'default',
+      highlightLines: true,
+      countIncrementalSlides: false
+    }) ;
     </script>
 
     <!-- for offline mathjax see http://stackoverflow.com/a/19209462 -->
